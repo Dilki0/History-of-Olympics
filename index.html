@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympic History</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <img src="images/Olympics_logo_PNG1.png" alt="Olympic Logo" class="logo">
+        <nav class="nav-menu">
+            <a href="#history">History</a>
+            <br>
+            <a href="#major-milestones">Milestones</a>
+            <br>
+            <a href="#winterSideBar">Winter</a>
+            <br>
+            <a href="#icons">Stars</a>
+            <br>
+            <a href="indexTwo.html">Paralympics</a>
+            <br>
+            <a href="indexTwo.html#EvoSidebar">Evolution</a>
+            <br>
+            <a href="indexTwo.html#futureSideBar">Future</a>
+            <br>
+            <a href="indexTwo.html#shopSideBar">Shop</a>
+            <br>
+        </nav>
+    </aside>
+
+    <!-- Section 1: History Section -->
+    <div id="history">
+        <div class="history-container">
+            <div class="history-text">
+                <h1 id="HistoryTitleTop">The History of</h1>
+                <h1 id="HistoryTitleBottom">Modern <br> Olympic Games</h1>
+                <br><br>
+                <p class="content">
+                    The Olympic Games are a thrilling international sports event held 
+                    every four years, where athletes from over 200 countries come 
+                    together to compete in various sports like swimming, gymnastics, 
+                    track and field, etc. Originating in ancient Greece, the modern 
+                    Olympics promote friendship and cooperation among nations while 
+                    showcasing incredible athletic talent. Athletes strive for gold, 
+                    silver, and bronze medals, making the Olympics a celebration of 
+                    dedication, competition, and cultural diversity.
+                </p>
+                <br>
+                <button class="learn-more-btn" id="learn-more-button" onclick="navigateToLearnMore()">learn more</button>
+
+            </div>
+            <img src="images/Yaroslve.png" alt="Image of Olympian Yaroslve" id="image-history-one" width="420px" height="650px">
+            <img src="images/Elin.png" alt="Image of Olympian Elin" id="image-history-two" width="420px" height="600px">
+            <img src="images/Chopra.png" alt="Image of Olympian Chopra" id="image-history-three" width="420px" height="1000px">
+            <img src="images/Caleb.png" alt="Image of Olympian Caleb" id="image-history-four" width="420px" height="1250px">
+            <img src="images/Coco.png" alt="Image of Olympian Coco" id="image-history-five" width="420px" height="1000px">
+            <img src="images/Hanyu.png" alt="Image of Olympian Hanyu" id="image-history-six" width="420px" height="750px">
+        </div>
+    </div>
+    
+    <!-- Section 2: Greece Section -->
+    <div id="greece">
+        <div id="greece-content">
+            <div class="map-container">
+                <img src="images/GreeceMap.png" alt="Map of Greece" class="map" height="1700px">
+                <div class="dot" id="olympia" onclick="checkAnswerDots('olympia')"></div>
+                <div class="dot" id="athens" onclick="checkAnswerDots('athens')"></div>
+                <div class="dot" id="sparta" onclick="checkAnswerDots('sparta')"></div>
+                <div class="dot" id="corinth" onclick="checkAnswerDots('corinth')"></div>
+            </div>
+        </div>
+        <div id="greece-text">
+            <h1 id="h1GreeceTitle"><strong>Greece:</strong> Everything <br> Starts Here!</h1> <br>
+            <br>
+            <h2 id="answer"></h2>
+            <br> <br>
+            <p id="city-info">Guess and click which city the first ancient <br> Olympic Games took place.</p>
+        </div>
+    </div>
+
+    <!-- Section 3: Time for Shifts Section -->
+    <div id="time-shifts">
+        <div id="time-content">
+            <h1 id="h1TimeShiftsTitle">Time for New Shifts</h1>
+            
+            <div id="time-rectangle">
+                <p id="time-text"> The ancient Olympic Games were banned in 393 CE by <em id="roman-text" onclick="showTheo()"> Roman Emperor Theodosius I </em>because he wanted 
+                    to promote Christianity and stop pagan festivals, which included the Olympics. Since the games 
+                    were closely linked to Greek religious practices, they were seen as incompatible with the new 
+                    Christian beliefs. As a result, the Olympic came to an end and sooner forgotten for many centuries. 
+                </p>
+                
+                <div id="first-hover">
+                    <p> It wasn’t until the late 1800s that people became interested in reviving the Olympics, 
+                        leading to the first modern Olympic Games in Athens in 1896, near 1,500 years after the ancient games were banned. 
+                    </p>
+                </div>
+                <img id="tedious-image" src="images/Theo.png" alt="Image of Theodosius" />
+                <div id="second-hover">
+                    <p> The revival of the Olympic Games in the modern era was primarily driven by Baron Pierre de 
+                        Coubertin, a French educator and historian. He believed that international sporting events could promote 
+                        peace and understanding between nations. Inspired by the ancient Olympic Games in Greece, he wanted to create a 
+                        similar event for the modern world where athletes from different countries could come together and compete in 
+                        a sprint of friendship. 
+                    </p>
+                </div>
+
+                <div id="third-hover">
+                    <p> In 1894, Coubertin founded the International Olympic Committee (IOC) to oversee the organization
+                        of the modern Olympic Games, mainly responsible for planning and managing the event. Marking the first modern game, 
+                        the inaugural Olympic Games were held in Athens, Greece, in 1896, paying homage to the ancient Games’ birthplace. 
+                        Athletes from 13 countries competed in events like track and field, gymnastics, and swimming, beginning the tradition 
+                        of international sports competition that continues today. 
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 4: Major Milestones -->
+    <div id="major-milestones">
+        <div id="milestone-title">
+            <h1>Major Milestones:</h1>
+            <h2><em>significant historical moments <br> involving politics</em></h2>
+        </div>
+
+        <img src="images/rowingWomen.png" alt="Image of Olympics Rowing" id="image-milestone-rowing" width="420px" height="650px">
+        <img src="images/runningWomen.png" alt="Image of Olympics Running" id="image-milestone-running" width="420px" height="850px">
+
+        <div id="milestone-top-card">
+            <p>The first modern Olympic Games in 1896 had fewer than 250 athletes, 
+                all of whom were men. Over time, the Olympics grew, with more countries 
+                joining and new sports being added to the program. </p>
+        </div>
+
+        <div id="milestone-bottom-card">
+            <p>In 1900, female athletes were allowed to compete for the first time, 
+                starting with sports like tennis and gold. Today, the Olympics feature 
+                thousands of athletes from around the world, competing in a wide variety 
+                of sports, including many for both men and women. </p>
+        </div>
+
+        <div class="milestone-timeline">
+            <div class="rectangle" id="rectBerlin"></div>
+            <img src="images/majorOne.png" id="majorOne" width="600px" height="1250px" style="display: none;">
+            <h1 class="milestone-title-formatting"id="textBerlinTitle">1936 Berlin</h1>
+            <div class="milestone-dot" id="berlin" onclick="checkAnswer('majorOne')"></div>
+            <p class="milestone-text-formatting" id="textBerlin">The Olympics were held in Nazi Germany, and Adolf Hitler 
+                tries to use the Games to show off his ideas of racial 
+                superiority. However, American athlete Jesse Owens, an 
+                African-American, won four gold medals, proving that 
+                talent and skill know no race. </p>
+                
+            <div class="rectangle" id="rectMexico"></div>
+            <img src="images/majorTwo.png" id="majorTwo" width="1800px" height="600px" style="display: none;">
+            <h1 class="milestone-title-formatting"id="textMexicoTitle">1968 Mexico City</h1>
+            <div class="milestone-dot" id="mexico" onclick="checkAnswer('majorTwo')"></div>
+            <p class="milestone-text-formatting" id="textMexico">During the medal ceremony, two American Athletes, Tommie 
+                Smith and John Carlos, raised their fists in a Black Power salute to protest racial inequality. 
+                This moment became one of the most famous acts of protest in sports history.  </p>
+
+            <div class="rectangle" id="rectEmpty"></div>
+
+            <div class="rectangle" id="rectMunich"></div>
+            <img src="images/majorThree.png" id="majorThree" width="600px" height="1630px" style="display: none;">
+            <h1 class="milestone-title-formatting"id="textMunichTitle">1972 Munich</h1>
+            <div class="milestone-dot" id="munich" onclick="checkAnswer('majorFour')"></div>
+            <p class="milestone-text-formatting" id="textMunich">A tragic event occurred when a terrorist group attacked 
+                the Olympic Village took Israeli athletes hostages, resulting in the death of 11 people. This event shocked 
+                the world and changed security at the Olympics forever. </p>
+
+            <div class="rectangle" id="rectMoscow"></div>
+            <img src="images/majorFour.png" id="majorFour" width="2650px" height="600px" style="display: none;">
+            <h1 class="milestone-title-formatting"id="textMoscowTitle">1980 Moscow & 1984 Los Angeles</h1>
+            <div class="milestone-dot" id="moscow" onclick="checkAnswer('majorThree')"></div>
+            <p class="milestone-text-formatting" id="textMoscow">These Olympic were affected by the Cold War, a time of 
+                tension between the U.S. and the Soviet Union. In 1980, the U.S. and many countries boycotted the Moscow 
+                Games, and in 1984, the Soviet Union and its allies boycotted the Los Angles Games. This made both Games 
+                smaller and more political. </p>
+        </div>
+    </div>
+
+    <!-- Section 5: Winter Olympics -->
+    <div id="winterSideBar" class="WinterOlympics">
+        <div id="darkBlueMap">
+            <div class="winterLeft">
+                <img src="images/ski.png" alt="Image of Olympic Skiing" id="Skiing" width="1800px" height="1200px" onclick="toggleText('alpineSkiingText')">
+                <h1>THE WINTER OLYMPICS</h1>
+                <p class="hiddenWinterText" id="alpineSkiingText" style="display: none;"><em><b>Alpine skiing</b></em> was first included in the Olympic Games in 1936 at the Winter Olympics
+                     held in Garmisch-Partenkirchen, Germany.</p>
+                <img src="images/kim.png" alt="Image of Olympic Kim" id="Kim" width="1100px" height="800px" onclick="toggleText('curlingText')">
+                <p class="hiddenWinterText" id="curlingText" style="display: none;"><em><b>Curling</b></em> was first introduced in 1924, yet it wasn't official up until 1998 at the Nagano
+                     Games in Japan.</p>
+                <p id="winterTextOne">The Winter Olympics were first held in 1924, created to showcase sports that take 
+                    place on snow and ice. Unlike the Summer Olympics, which feature events like 
+                    running and swimming, the Winter Games focus on sports like skiing, ice, skating, 
+                    and ice kockey.</p>
+                <img src="images/snowboard.png" alt="Image of Olympic Snowboarding" id="snowboard" width="1200px" height="900px" onclick="toggleText('snowboardingText')">
+                <p class="hiddenWinterText" id="snowboardingText" style="display: none;"><em><b>Snowboarding</b></em> was introduced to the Olympic Games in 1998 at the Winter Olympics in
+                     Nagano, Japan.</p>
+                <p id="winterTextTwo">These Games gave athletes a chance to compete in cold-weather sports, and they 
+                    quickly became just as popular as the Summer Olympics. Today, both the Summer 
+                    and Winter Olympics are held every four years, but in different seasons.</p>
+
+                <img src="images/car.png" alt="Image of Olympic Car" id="car" width="2000px" height="1400px" onclick="toggleText('bobsleighText')">
+                <p class="hiddenWinterText" id="bobsleighText" style="display: none;"><em><b>Bobsleigh</b></em> was first introduced in 1924 at the Winter Olympics in Chamonix, France.</p>
+            </div>
+            <div class="darkBlueRect" id="darkFirst"></div>
+            <div class="darkBlueRect" id="darkSecond"></div>
+            <div class="darkBlueRect" id="darkThird"></div>
+            <div class="darkBlueRect" id="darkFourth"></div>
+            <div class="darkBlueRect" id="darkFifth"></div>
+        </div>
+
+        
+    </div>
+
+    <!-- Section 6: Iconic Athletes -->
+    <div id="icons" class="Iconic-Athletes">
+
+        <!-- Iconic Athletes Intro -->
+        <div id="athletesTitle">
+            <h1>Iconic Athletes</h1>
+            <p>Following are four of the many famous athletes who made history 
+                with their incredible performances and lasting impact on their sports.
+                Browse through to get to know more about Nadia Comaneci, Michael Phelps, Usain Bolt,
+                and Simone Biles, each know for their remarkable achievements. To 
+                learn more about their stories, flip over each card. 
+            </p>
+        </div>
+        <div id="blueMap">
+            <div class="blueRectangle" id="blueFirst"></div>
+            <div class="blueRectangle" id="blueSecond"></div>
+            <div class="blueRectangle" id="blueThird"></div>
+            <div class="blueRectangle" id="blueFourth"></div>
+
+        </div>
+
+        <!-- Card Section -->
+        <!-- Nadia Card -->
+        <div class="card-container" onclick="flipCard(this)">
+            <div class="cardNadia">
+                <div class="flip-card-inner" onclick="flipCard(this)">
+                    <div class="flip-card-front">
+                        <img src="images/nadiaID.png" alt="Nadia Comăneci" width="300px" height="400px" id="NadiaImg"/>
+                        <div id="card-formatting">
+                            <h3>NADIA COMANECI</h3>
+                            <p id="dob">DOB: 11/12/1961</p>
+                            <p id="italicCardContent"> <em>gymnastics</em></p> <br>
+                            <img src="images/nadSign.png" alt="Nadia Comăneci Signature"  width="400px" height="200px">
+                            <img src="images/flip.png" width="100px" height="100px" id="flipOne">
+
+
+                        </div>
+                    </div>
+                    <div class="flip-card-back">
+                        <p><b>Nadia Comaneci</b> made history at 14 by earning the first 
+                            perfect 10 in gymnastics in 1976 Olympics. Her legacy
+                            of perfection and innovation changed gymnastics forever, 
+                            inspiring athletes around the world. </p>
+                            <img src="images/nadBack.png" alt="Nadia Comăneci" width="400px" height="500px" id="NadiaImgBack"/>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Michael Card -->
+            <div class="card-container" onclick="flipCard(this)">
+                <div class="cardMichael">
+                    <div class="flip-card-inner" onclick="flipCard(this)">
+                        <div class="flip-card-front">
+                            <img src="images/phelpsImg.png" alt="Michaels Phelps" width="300px" height="400px" id="NadiaImg"/>
+                            <div id="card-formatting">
+                                <h3>MICHAEL PHELPS</h3>
+                                <p id="dob">DOB: 06/30/1985</p>
+                                <p id="italicCardContent"> <em>swimming</em></p> <br>
+                                <img src="images/phelpsSign.png" alt="Michaels Phelps Signature"  width="400px" height="200px">
+                                <img src="images/flip.png" width="100px" height="100px" id="flipTwo">
+                            </div>
+                        </div>
+                        <div class="flip-card-back-horizontal">
+                            <img src="images/phelpsBack.png" alt="Michaels Phelps" width="700px" height="350px" id="PhelpsImgBack"/>
+                            <p><b>Michael Phelps</b> is the most decorated Olympian ever, with 23 gold medals 
+                                in swimming across multiple events. His unmatched success and advocacy for mental
+                                health have left a lasting impact on the world of sports </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Usain Card -->
+            <div class="card-container" onclick="flipCard(this)">
+                <div class="cardUsain">
+                    <div class="flip-card-inner" onclick="flipCard(this)">
+                        <div class="flip-card-front">
+                            <img src="images/usainImg.png" alt="Usain Bolt" width="300px" height="400px" id="NadiaImg"/>
+                            <div id="card-formatting">
+                                <h3>USAIN BOLT</h3>
+                                <p id="dob">DOB: 08/21/1986</p>
+                                <p id="italicCardContent"> <em>track and field</em></p> <br>
+                                <img src="images/usainSign.png" alt="Usain Bolt Signature"  width="400px" height="200px">
+                                <img src="images/flip.png" width="100px" height="100px" id="flipThree">
+                            </div>
+                        </div>
+                        <div class="flip-card-back-bolt">
+                            <img src="images/usainBack.png" alt="Usain Bolt" width="450px" height="450px" id="UsainImgBack"/>
+                            <p><b>Usain Bolt</b> was the fastest man in history, winning multiple gold medals 
+                                and setting world records in sprinting. His dominance and charismatic personality 
+                                made him a global sports icon, inspiring future generations of athletes. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Simone Card -->
+            <div class="card-container" onclick="flipCard(this)">
+                <div class="cardSimone">
+                    <div class="flip-card-inner" onclick="flipCard(this)">
+                        <div class="flip-card-front">
+                            <img src="images/simoneImg.png" alt="Simone Biles" width="300px" height="400px" id="NadiaImg"/>
+                            <div id="card-formatting">
+                                <h3>SIMONE BILES</h3>
+                                <p id="dob">DOB: 03/14/1997</p>
+                                <p id="italicCardContent"> <em>gymnastics</em></p> <br>
+                                <img src="images/simoneSign.png" alt="Simone Biles Signature"  width="400px" height="200px">
+                                <img src="images/flip.png" width="100px" height="100px" id="flipFour">
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                            <p><b>Simone Biles</b> is a gymnastics powerhouse, with four Olympic gold medals and groundbacking 
+                                routines that push the sport's limits. Beyond her athletic achievements, she's a symbol 
+                                of mental health advocacy and resilience. </p>
+                                <img src="images/simoneBack.png" alt="Simone Biles" width="500px" height="400px" id="SimoneBack"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="images/redArrow.png" id="redArrow" width="500px" height="300px" onclick="navigateToParalympics()">
+
+        </div>
+    </div>
+    
+    <footer>
+        <img src="images/footerImg.png" width="3420px" height="600px" id="footer"/>
+    </footer>
+ 
+</body>
+
+</html>

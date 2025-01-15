@@ -1,0 +1,1066 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0077c8;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* Sidebar */
+.sidebar {
+    position: fixed; 
+    background-color: white;
+    margin-top: -150px;
+    width: 300px;
+    height: 1100px;
+    padding-top: 90px;
+    position: fixed;
+    border-radius: 00px 00px 150px 150px; 
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 180px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.nav-menu {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    margin: 10px 0;
+    transition: color 0.3s;
+}
+.nav-menu a:hover {
+    color: #0077c8;
+}
+
+
+/* History Section */
+#history {
+    margin-left: 550px;
+    margin-top: 100px;
+}
+
+.history-container {
+    display: flex; 
+}
+
+.history-text {
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 200px;
+
+}
+
+#HistoryTitleTop {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    color: white;
+}
+
+#HistoryTitleBottom {
+    font-family: "Instrument Serif", serif;
+    font-size: 110px;
+    font-weight: 10;
+    color: white;
+}
+
+.content {
+    width: 850px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 55px;
+    font-weight: 10;
+    color: white;
+}
+
+#learn-more-button {
+    font-family: "Instrument Serif", serif;
+    font-style: italic;
+    background: #0077c8;
+    border-color: white;
+    color: white;
+    font-size: 50px;
+    padding: 20px 50px 20px 50px;
+    border-radius: 100px;
+    margin-top: 50px;
+}
+
+/* Images for History */
+#image-history-one {
+    border-radius: 00px 00px 200px 200px; 
+    margin-top: -150px;
+    margin-left: 250px;
+}
+#image-history-four {
+    border-radius: 200px 200px 200px 200px; 
+    margin-top: 730px;
+    margin-left: -1625px;
+    padding-bottom: 50px;
+}
+
+#image-history-two {
+    border-radius: 00px 00px 200px 200px; 
+    margin-top: -150px;
+    margin-left: 200px;
+}
+#image-history-five {
+    border-radius: 200px 200px 200px 200px; 
+    margin-top: 600px;
+    margin-left: 210px;
+}
+
+#image-history-three {
+    border-radius: 200px 200px 200px 200px; 
+    margin-top: -20px;
+    margin-left: 200px;
+}
+#image-history-six {
+    border-radius: 200px 200px 200px 200px; 
+    margin-top: 1100px;
+    margin-left: 170px;
+}
+
+
+/* Greece Section */
+#greece {
+    background: #fbb232;
+    display: flex; 
+    margin-top: 50px;
+}
+
+#greece-content {
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+#greece-text {
+    margin-top: 480px;
+    margin-left: 200px;
+    font-family: "Instrument Serif", serif;
+}
+
+#h1GreeceTitle {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 110px;
+    font-weight: 200;
+}
+
+#answer {
+    color:darkred;
+    font-size: 55px;
+}
+
+#city-info {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 55px;
+    font-weight: 10;
+    width: 1000px;
+}
+
+/* Greece Map */
+.dot {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.dot#olympia { top: 3140px; left: 780px; }
+.dot#athens { top: 3086px; left: 1013px; }
+.dot#sparta { top: 3238px; left: 872px; }
+.dot#corinth { top: 3068px; left: 922px; }
+
+/* Time Shift Section */
+#time-shifts {
+    background: #fbb232;
+    display: flex; 
+}
+
+#time-content {
+    margin-top: 400px;
+    margin-left: 520px;
+}
+
+#h1TimeShiftsTitle {
+    font-family: "Josefin Sans", sans-serif;
+    color: #feeed6;
+    font-size: 140px;
+    font-weight: 350;
+    margin-left: 115px;
+    margin-bottom: -40px;
+}
+
+#time-rectangle {
+    background-color: #feeed6;
+    border-radius: 100px 100px 0px 0px; 
+    padding-top: 50px;
+    width: 2900px;
+}
+
+#time-text {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 55px;
+    font-weight: 10;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#roman-text {
+    color: #ef5667;
+    font-weight: 300;
+}
+
+#roman-text:hover {
+    color: #ef5667;
+    font-weight: 300;
+}
+
+/* Hover Text */
+#first-hover {
+    background-color: #1a8b3c;
+    color: #1a8b3c;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 10;
+    height: 350px;
+    margin-top: 150px;
+    margin-left: 700px;
+    padding: 100px 80px 100px 150px;
+    border-radius: 200px 0px 0px 200px; 
+}
+
+#first-hover:hover {
+    background-color: #ffffff;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 10;
+    height: 350px;
+    margin-top: 150px;
+    margin-left: 700px;
+    padding: 100px 80px 100px 150px;
+    border-radius: 200px 0px 0px 200px; 
+}
+
+#second-hover {
+    background-color: #1a8b3c;
+    color: #1a8b3c;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 10;
+    height: 350px;
+    margin-top: 0px;
+    margin-left: 400px;
+    padding: 50px 80px 50px 150px;
+    border-radius: 200px 0px 0px 200px; 
+}
+
+#second-hover:hover {
+    background-color: #ffffff;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 10;
+    height: 350px;
+    margin-top: 0px;
+    margin-left: 400px;
+    padding: 50px 80px 50px 150px;
+    border-radius: 200px 0px 0px 200px; 
+}
+
+#third-hover {
+    background-color: #1a8b3c;
+    color: #1a8b3c;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 10;
+    height: 350px;
+    margin-top: 0px;
+    margin-left: 200px;
+    padding: 50px 80px 50px 150px;
+    border-radius: 200px 0px 0px 200px; 
+}
+
+#third-hover:hover {
+    background-color: #ffffff;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 10;
+    height: 350px;
+    margin-top: 0px;
+    margin-left: 200px;
+    padding: 50px 80px 50px 150px;
+    border-radius: 200px 0px 0px 200px; 
+}
+
+/* Hidden image */
+.hide {
+    display: none !important;
+}
+
+#tedious-image {
+    opacity: 0;
+    display: none;
+    transition: opacity 0.3s ease-in-out;
+    position: relative;
+    width: 2935px;
+    height: 1400px;
+    margin-top: -585px;
+    margin-left: 0px;
+}
+
+
+#tedious-image.show {
+    display: block;
+    opacity: 1;
+}
+
+
+/* Major Milestones Section*/
+#major-milestones {
+    background: #1a8b3c;
+    display: block; 
+}
+
+#image-milestone-rowing {
+    border-radius: 00px 00px 200px 200px; 
+    margin-left: 2400px;
+    margin-top: -400px;
+}
+
+#image-milestone-running {
+    border-radius: 00px 00px 200px 200px; 
+    margin-left: 2900px;
+    margin-top: -655px;
+}
+
+
+#milestone-title {
+    padding-top: 150px;
+    padding-left: 1600px;
+}
+
+#milestone-title h1 {
+    font-family: "Instrument Serif", serif;
+    font-size: 110px;
+    font-weight: 10;
+    color: white;
+}
+
+#milestone-title h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 55px;
+    font-weight: 10;
+    color: white;
+    font-weight: 300;
+}
+
+#milestone-top-card {
+    background-color: #fdd898; 
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 10;
+    margin-top: -300px;
+    margin-left: 500px;
+    width: 1300px;
+    padding: 100px 150px 100px 150px;
+    border-radius: 250px
+}
+
+#milestone-bottom-card {
+    background-color: #fdd898; 
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 10;
+    margin-top:0;
+    margin-left: 850px;
+    width: 1300px;
+    padding: 100px 150px 100px 150px;
+    border-radius: 250px
+}
+
+/* Timeline Rectangles*/
+.milestone-timeline {
+    display:grid;
+}
+
+.rectangle{
+    background: #fdd898;
+    border-radius: 300px;
+}
+
+#rectBerlin {
+    width:1200px;
+    height:600px;
+    rotate: 90deg;
+    margin-left: 1100px;
+    margin-top: 400px;
+}
+
+#majorOne {
+    position: absolute;
+    border-radius: 300px;
+    margin-left: 1400px;
+    margin-top: 100px;
+    z-index: 1;
+}
+
+#rectMexico {
+    width:1800px;
+    height:600px;
+    rotate: 180deg;
+    margin-left: 1400px;
+    margin-top: -250px;
+}
+
+#majorTwo {
+    position: absolute;
+    border-radius: 300px;
+    margin-left: 1400px;
+    margin-top: 750px;
+    z-index: 1;
+}
+
+#rectEmpty {
+    width:1300px;
+    height:600px;
+    rotate: 90deg;
+    margin-left: 2250px;
+    margin-top: -250px;
+}
+
+#rectMunich {
+    width:2650px;
+    height:600px;
+    rotate: 180deg;
+    margin-left: 550px;
+    margin-top: -170px;
+}
+
+#majorThree {
+    position: absolute;
+    border-radius: 300px;
+    margin-left: 550px;
+    margin-top: 1530px;
+    border-radius: 300px 300px 0px 0px;
+    z-index: 2;
+}
+
+#rectMoscow {
+    width:1600px;
+    height:600px;
+    rotate: 90deg;
+    margin-left: 50px;
+    margin-top: -600px;
+    border-radius: 300px 0px 0px 300px;
+}
+
+#majorFour {
+    position: absolute;
+    border-radius: 300px;
+    margin-left: 550px;
+    margin-top: 1530px;
+    z-index: 1;
+
+}
+
+/* Milestone Text Content */
+.milestone-title-formatting {
+    font-family: "Instrument Serif", serif;
+    font-style: italic;
+    color: white;
+    font-size: 80px;
+    font-weight: 100px;
+    border: 2px solid white;
+    width: 450px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.milestone-text-formatting {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 10;
+    color: white;
+}
+
+.milestone-dot {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#textBerlinTitle {
+    margin-left: 2130px; 
+    margin-top: -800px;
+}
+.milestone-dot#berlin { top: 7690px; left: 2090px; }
+#textBerlin {
+    width: 900px;
+    margin-top: -630px;
+    margin-left: 2100px;
+}
+
+#textMexicoTitle {
+    width: 600px;
+    margin-left: 700px; 
+    margin-top: -800px;
+}
+.milestone-dot#mexico { top: 8040px; left: 1260px; }
+#textMexico {
+    width: 900px;
+    margin-top: -630px;
+    margin-left: 450px;
+    text-align: right;
+
+}
+
+#textMunichTitle {
+    width: 500px;
+    margin-left: 2380px; 
+    margin-top: 50px;
+}
+.milestone-dot#munich { top: 9640px; left: 2340px; }
+#textMunich {
+    width: 800px;
+    margin-top: 60px;
+    margin-left: 2380px;
+    text-align: left;
+}
+
+#textMoscowTitle {
+    width: 1040px;
+    margin-left: 1240px; 
+    margin-top: -480px;
+}
+.milestone-dot#moscow { top: 9640px; left: 1200px; }
+#textMoscow {
+    width: 900px;
+    margin-top: -300px;
+    margin-left: 1240px;
+    text-align: left;
+    padding-bottom: 400px;
+}
+
+/* Winter Olympics Seciton */
+.WinterOlympics {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.winterLeft {
+    flex-direction: column;
+}
+
+.winterLeft h1 {
+    position: absolute;
+    font-family: "Instrument Serif", serif;
+    font-size: 150px;
+    font-weight: 10;
+    color: #0885c3;
+    margin-top: 640px;
+    margin-left: 1300px;
+    rotate: 10deg;
+}
+
+.winterLeft p {
+    font-family: "Josefin Sans", sans-serif;
+    margin-top: 180px;
+    margin-left: 180px;
+    width: 500px;
+    color: black
+}
+
+#winterTextOne {
+    font-size: 50px;
+    position: absolute;
+    line-height: 70px;
+    font-weight: 200;
+    margin-top: 1700px;
+    margin-left: 2550px;
+    width: 800px;
+}
+
+#winterTextTwo {
+    font-size: 50px;
+    position: absolute;
+    line-height: 70px;
+    font-weight: 200;
+    margin-top: 2650px;
+    margin-left: 500px;
+    width: 900px;
+}
+
+.hiddenWinterText {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 100;
+}
+
+#alpineSkiingText {
+    position: absolute;
+    width: 800px;
+    margin-top: 200px;
+    margin-left: 1200px;
+    text-align: right;
+}
+
+#curlingText {
+    position: absolute;
+    width: 600px;
+    margin-top: 600px;
+    margin-left: 2700px;
+    text-align: right;
+}
+
+#snowboardingText {
+    position: absolute;
+    width: 650px;
+    margin-top: 1840px;
+    margin-left: 1800px;
+    text-align: right;
+}
+
+#bobsleighText {
+    position: absolute;
+    width: 650px;
+    margin-top: 2900px;
+    margin-left: 1400px;
+    text-align: right;
+}
+
+#Skiing {
+    position: absolute;
+    z-index: 1;
+    rotate: -13deg;
+    margin-left: -100px;
+    margin-top: -200px;
+}
+
+#Kim {
+    position: absolute;
+    z-index: 1;
+    rotate: 0deg;
+    margin-left: 2320px;
+    margin-top: 800px;
+}
+
+#snowboard {
+    position: absolute;
+    z-index: 1;
+    rotate: 34deg;
+    margin-left: 800px;
+    margin-top: 1400px;
+}
+
+#car {
+    position: absolute;
+    z-index: 1;
+    rotate: 10deg;
+    margin-left: 1650px;
+    margin-top: 1800px;
+}
+
+#darkBlueMap {
+    flex-direction: column;
+}
+
+.darkBlueRect{
+    height:600px;
+    background: #0885c3;
+}
+
+#darkFirst {
+    width:1200px;
+    rotate: 90deg;
+    border-radius: 0px 300px 300px 0px;
+    margin-left: 250px;
+    margin-top: 300px;
+}
+
+#darkSecond {
+    width:2300px;
+    rotate: 10deg;
+    border-radius: 300px 300px 300px 300px;
+    margin-left: 550px;
+    margin-top: -150px;
+}
+
+#darkThird {
+    width:2400px;
+    rotate: -20deg;
+    border-radius: 300px 300px 300px 300px;
+    margin-left: 480px;
+    margin-top: -130px;
+}
+
+#darkFourth {
+    width:2370px;
+    rotate: 25deg;
+    border-radius: 300px 300px 300px 300px;
+    margin-left: 450px;
+    margin-top: 150px;
+}
+
+#darkFifth {
+    width:800px;
+    rotate: 90deg;
+    border-radius: 300px 0px 0px 300px;
+    margin-left: 2040px;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+
+
+/* Iconic Athletes Seciton */
+.Iconic-Athletes {
+    background-color: #fbd6db;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
+#athletesTitle {
+    margin-left: 500px;
+    margin-top: 250px;
+}
+
+#athletesTitle h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 120px;
+    font-weight: 400;
+    color: #0885c3;
+    width: 1000px;
+}
+
+#athletesTitle p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    color: black;
+    width: 700px;
+    line-height: 70px;
+    margin-top: 20px;
+}
+
+
+/* Card formatting */
+.card-container {
+    flex: 3;
+    display: grid;
+}
+  
+.cardNadia {
+    display: inline-block;
+    width: 1200px;
+    height: 800px;
+    border-radius: 200px;
+    perspective: 1000px; 
+    margin-left: -1200px;
+    margin-top: 600px;
+    rotate: 8deg;
+
+}
+
+.cardMichael {
+    display: inline-block;
+    width: 1200px;
+    height: 800px;
+    border-radius: 200px;
+    perspective: 1000px; 
+    margin-left: -2400px;
+    margin-top: -150px;
+    rotate: -2deg;
+}
+
+.cardUsain {
+    display: inline-block;
+    width: 1200px;
+    height: 800px;
+    border-radius: 200px;
+    perspective: 1000px; 
+    margin-left: -1200px;
+    margin-top: -100px;
+    rotate: 6deg;
+}
+
+.cardSimone {
+    display: inline-block;
+    width: 1200px;
+    height: 800px;
+    border-radius: 200px;
+    perspective: 1000px; 
+    margin-left: -2500px;
+    margin-top: -200px;
+    rotate: -4deg;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 200px;
+    transition: transform 0.6s; 
+    transform-style: preserve-3d; 
+}
+
+/* Flip transformation */
+.flip-card-inner.flip {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 200px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front, .flip-card-back-horizontal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 200px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front, .flip-card-back-bolt {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 200px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background: #feeed6;
+    display: flex;
+    flex-direction: row;
+}
+
+.flip-card-back {
+    background: #feeed6; 
+    color: black;
+    flex-direction: row;
+    transform: rotateY(180deg); 
+    display: flex;
+}
+
+.flip-card-back-horizontal {
+    background: #feeed6; 
+    color: black;
+    flex-direction: column;
+    transform: rotateY(180deg); 
+    display: flex;
+}
+
+.flip-card-back-bolt {
+    background: #feeed6; 
+    color: black;
+    flex-direction: row;
+    transform: rotateY(180deg); 
+    display: flex;
+}
+
+/* Card content */
+#NadiaImg {
+    margin-left: 180px;
+    margin-top: 180px;
+}
+
+#card-formatting {
+    flex-direction: column;
+    padding-left: 50px;
+
+}
+
+#card-formatting h3{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    padding-top: 180px;
+}
+
+#dob{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    padding-top: 30px;
+}
+
+#italicCardContent {
+    font-family: "Instrument Serif", serif;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+.flip-card-back p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: 180px;
+    margin-left: 180px;
+    width: 500px;
+    line-height: 50px;
+}
+
+#NadiaImgBack {
+    margin-top: 100px;
+}
+
+.flip-card-back-horizontal p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: 40px;
+    margin-left: 180px;
+    width: 850px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#PhelpsImgBack {
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.flip-card-back-bolt p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: 180px;
+    margin-left: 0px;
+    width: 500px;
+    line-height: 50px;
+    text-align: left;
+}
+
+#UsainImgBack {
+    margin-top: 180px;
+    margin-left: 150px;
+}
+
+#SimoneBack {
+    margin-top: 180px;
+    margin-left: -80px;
+}
+
+#flipOne {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+#flipTwo {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+#flipThree {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+#flipFour {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+#redArrow {
+    margin-left: -200px;
+}
+
+/* Blue background map */
+
+#blueMap {
+    display: block;
+    flex-direction: column;
+}
+
+.blueRectangle{
+    background: #cde6f4;
+}
+
+#blueFirst {
+    width:1200px;
+    height:600px;
+    rotate: 90deg;
+    border-radius: 0px 300px 300px 0px;
+    margin-left: 300px;
+    margin-top: 280px;
+}
+
+#blueSecond {
+    width:1800px;
+    height:600px;
+    rotate: -25deg;
+    border-radius: 300px 300px 300px 300px;
+    margin-left: -500px;
+    margin-top: 300px;
+}
+
+#blueThird {
+    width:1800px;
+    height:600px;
+    rotate: 25deg;
+    border-radius: 300px 300px 300px 300px;
+    margin-left: -500px;
+    margin-top: 0px;
+}
+
+#blueFourth {
+    width:1800px;
+    height:600px;
+    rotate: -25deg;
+    border-radius: 300px 300px 300px 300px;
+    margin-left: -500px;
+    margin-top: 100px;
+}
+
+
+#footer {
+    margin-top: 0px;
+}

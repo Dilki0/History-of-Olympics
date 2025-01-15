@@ -1,0 +1,645 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fbb232;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed; 
+    background-color: white;
+    margin-top: -150px;
+    width: 300px;
+    height: 1200px;
+    padding-top: 190px;
+    position: fixed;
+    border-radius: 00px 00px 150px 150px; 
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 180px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.nav-menu {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    margin: 10px 0;
+    transition: color 0.3s;
+}
+.nav-menu a:hover {
+    color: #0077c8;
+}
+
+/* Paralympic Games Content */
+.content {
+    flex-direction: column;
+}
+
+.content h1 {
+    font-family: "Instrument Serif", sans-serif;
+    font-size: 150px;
+    font-weight: 700;
+    color: #ed324e; 
+    margin-top: 300px;
+    margin-left: 500px;
+    z-index: 1;
+}
+
+.content h2 {
+    font-family: "Instrument Serif", sans-serif;
+    font-size: 80px;
+    font-weight: 100;
+    font-style: normal;
+    color: #ed324e; 
+    margin-left: 500px;
+    z-index: 1;
+}
+
+#top-layer {
+    flex-direction: row;
+}
+
+.content p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 200;
+    color: black; 
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 1150px;
+    line-height: 70px;
+    z-index: 1;
+}
+
+#Esther {
+    margin-left: 1900px;
+    margin-top: -650px;
+    z-index: 1;
+}
+
+.content h3 {
+    font-family: "Instrument Serif", sans-serif;
+    font-size: 70px;
+    font-weight: 100;
+    font-style: normal;
+    color: black; 
+    z-index: 1;
+    width: 400px;
+}
+
+.content h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    color: black; 
+    margin-top: 80px;
+    width: 1150px;
+    z-index: 1;
+}
+
+.scout {
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 0px;
+}
+
+.esther {
+    position: absolute;
+    margin-left: 3000px;
+}
+
+.moveUP {
+    position: absolute;
+    margin-top: -1250px;
+}
+
+#bottom-layer {
+    flex-direction: row;
+}
+
+#secondPara {
+    margin-left: 1220px;
+    margin-top: -700px;
+    z-index: 1;
+}
+
+#Scott {
+    margin-left: 420px;
+    margin-top: -650px;
+    z-index: 1;
+}
+
+/* White Background */
+.rectangleGroup {
+    flex-direction: row;
+    z-index: -1;
+}
+
+.rectangle {
+    height:600px;
+    border-radius: 400px;
+    rotate: 90deg;
+    z-index: -1;
+}
+
+#rectOne {
+    width: 2300px;
+    margin-left: -550px;
+    margin-top: -1250px;
+    background: white;
+    z-index: -1;
+}
+
+#rectTwo {
+    width: 2400px;
+    margin-left: -50px;
+    margin-top: -400px;
+    background: white;
+    z-index: -1;
+}
+
+#rectThree {
+    width: 2200px;
+    margin-left: 630px;
+    margin-top: -750px;
+    background: white;
+    z-index: -1;
+}
+
+#rectFour {
+    width: 2100px;
+    margin-left: 1260px;
+    margin-top: -450px;
+    background: white;
+    z-index: -1;
+}
+
+#rectFive {
+    width: 2000px;
+    margin-left: 1890px;
+    margin-top: -450px;
+    background: white;
+    z-index: -1;
+}
+
+#rectSix {
+    height:300px;
+    width: 1600px;
+    margin-left: 2470px;
+    margin-top: -500px;
+    background: white;
+    z-index: -1;
+    margin-bottom: 800px;
+}
+
+/* Evolution Content */
+.Evolution {
+    background-color: #cde6f4;
+    flex-direction: column;
+}
+
+.evoTitle h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 100px;
+    font-weight: 200;
+    color: white; 
+    margin-top: 100px;
+    margin-left: 950px;
+    z-index: 1;
+}
+
+#evoWord {
+    font-family: "Instrument Serif", sans-serif;
+    font-size: 110px;
+    font-weight: 700;
+    color: white; 
+    margin-top: 0px;
+    margin-left: 800px;
+    z-index: 1;
+}
+
+#secondRowTitle {
+    margin-top: 20px;
+    margin-left: 1750px;
+}
+
+#evoTitleRect {
+    width: 1920px;
+    height:500px;
+    border-radius: 400px 0px 0px 400px;
+    background-color: #ed324e;
+    margin-top: -365px;
+    margin-left: 1500px;
+}
+
+.Evolution p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    color: black; 
+    margin-top: 100px;
+    margin-left: 1800px;
+    width: 1300px;
+    line-height: 70px;
+    z-index: 1;
+}
+
+/* Tan Info Cards */
+.pinkRect {
+    position: relative; 
+    width: 2800px;
+    height: 1450px;
+    border-radius: 250px 250px 0px 0px;
+    background-color: #f699a6;
+    margin-top: 100px;
+    margin-left: 450px;
+    overflow-x: scroll; 
+    white-space: nowrap; 
+    display: flex;
+    justify-content: flex-start; 
+    padding: 50px; 
+    box-sizing: border-box;
+}
+
+.tanCard {
+    position: absolute; 
+    width: 900px;
+    height: 1300px;
+    transform: translateX(-50%); 
+    border-radius: 250px 250px 0px 0px;
+    background-color: #feeed6;
+    z-index: 1;
+}
+
+.pinkRect h3 {
+    font-family: "Instrument Serif", sans-serif;
+    font-size: 70px;
+    font-weight: 100;
+    color: black; 
+    margin-top: 0px;
+    margin-left: 300px;
+    z-index: 1;
+}
+
+.pinkRect p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 42px;
+    font-weight: 200;
+    color: black; 
+    margin-top: 50px;
+    margin-left: 50px;
+    line-height: 50px;
+    z-index: 1;
+}
+
+#Tokyo {
+    bottom: 0; 
+    left: 500px; 
+}
+
+#TokyoSign {
+    margin-top: 50px;
+    margin-left: 180px;
+}
+
+#Munich {
+    bottom: 0; 
+    left: 1450px; 
+}
+
+#MunichDog {
+    position: absolute; 
+    margin-top: 150px;
+    margin-left: 180px;
+    
+}
+
+#MunichSign {
+    margin-top: 400px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#Moscow {
+    bottom: 0; 
+    left: 2400px; 
+}
+
+#MoscowSign {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#Sydney {
+    bottom: 0; 
+    left: 3350px; 
+}
+
+#SydneySign {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+#Beijing {
+    bottom: 0; 
+    left: 4300px; 
+}
+
+#BeijingSign {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+
+}
+
+#London {
+    bottom: 0; 
+    left: 5250px; 
+}
+
+#LondonSign {
+    margin-top: 100px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+}
+
+/* Future Section */
+.Future {
+    background-color: #0885c3;
+    flex-direction: column;
+}
+
+.futureFirstRow {
+    flex-direction: row;
+}
+
+.futureSecondRow {
+    flex-direction: row;
+}
+
+.futureFirstRow h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 110px;
+    font-weight: 400;
+    color: white; 
+    margin-top: 300px;
+    margin-left: 1800px;
+    z-index: 1;
+}
+
+.Future p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    color: white; 
+    line-height: 55px;
+    z-index: 1;
+    width: 1350px;
+}
+
+.futureFirstRow p {
+    margin-top: 100px;
+    margin-left: 1800px;
+}
+
+.futureSecondRow {
+    margin-top: 200px;
+    margin-left: 500px;
+}
+
+.futureSecondRow p {
+    width: 1000px;
+}
+
+#surfer {
+    border-radius: 200px 200px 200px 200px; 
+    margin-top: -400px;
+    margin-left: 600px;
+    margin-right: 150px;
+    margin-bottom: 200px;
+}
+
+#skater {
+    border-radius: 200px 200px 200px 200px; 
+    margin-top: -500px;
+    margin-right: 100px;
+}
+
+#medal {
+    border-radius: 200px 200px 200px 200px; 
+    margin-top: -1400px;
+    margin-left: 1300px;
+    margin-right: 150px;
+    margin-bottom: 1300px;
+}
+
+#climber {
+    border-radius: 200px 200px 200px 200px; 
+    margin-top: -800px;
+    margin-right: 100px;
+    margin-bottom: 1100px;
+}
+
+#kick {
+    border-radius: 200px 200px 200px 200px; 
+    margin-top: -2500px;
+    margin-left: 2400px;
+    margin-right: 150px;
+    margin-bottom: 1500px;
+}
+
+/* Shop Section */
+.Shop {
+    background-color: #8ec39d;
+    margin-top: -900px;
+    flex-direction: row;
+}
+
+.shopLeft {
+    flex-direction: column;
+}
+
+.shopRight {
+    flex-direction: column;
+}
+
+.shopRight h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 110px;
+    font-weight: 100;
+    color: white; 
+    margin-top: 200px;
+    margin-left: 2200px;
+    z-index: 1;
+}
+
+.shopRight p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    color: white; 
+    line-height: 55px;
+    z-index: 1;
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 2280px;
+    text-align: right;;
+}
+
+.shopColumn {
+    width: 500px;
+    transform: translateX(-50%); 
+    border-radius: 250px 250px 0px 0px;
+    background-color: #fdd898;
+    z-index: 1;
+    flex-direction: column;
+}
+
+#shopColumnOne {
+    position: absolute;
+    height: 1200px;
+    margin-left: 1200px;
+    margin-top: -400px;
+    z-index: 0;
+}
+
+#shopColumnTwo {
+    height: 1000px;
+    margin-left: 700px;
+    margin-top: -200px;
+    z-index: 0;
+}
+
+#shopColumnThree {
+    height: 850px;
+    margin-left: 1680px;
+    margin-top: -850px;
+    z-index: 0;
+}
+
+#shirt {
+    margin-left: 480px;
+    margin-bottom: 200px;
+}
+
+#hoodie {
+    margin-left: 60px;
+    margin-bottom: 400px;
+}
+
+#skateboard {
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.shopColumn h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 150px;
+    font-weight: 500;
+    color: #FBB232; 
+    line-height: 55px;
+    z-index: 1;
+    width: 800px;
+    margin-left: -530px;
+    text-align: right;
+}
+
+#shopColumnOne h1 {
+    margin-top: 150px;
+}
+
+#shopColumnTwo h1 {
+    position: absolute;
+    margin-top: 150px;
+}
+
+#shopColumnThree h1 {
+    position: absolute;
+    margin-top: 150px;
+}
+
+.shopColumn p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    color: black; 
+    line-height: 55px;
+    z-index: 1;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 0px;
+    text-align: center;;
+}
+
+
+#shopColumnOne p {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#shopColumnTwo p {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 90px;
+}
+
+#shopColumnThree p {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 90px;
+}
+
+.shopColumn h2 {
+    font-family: "Instrument Serif", sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    color: black; 
+    margin-top: 0px;
+    z-index: 1;
+}
+
+#shopColumnOne h2 {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#shopColumnTwo h2 {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 200px;
+}
+
+#shopColumnThree h2 {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 200px;
+}
+
+#footerShop {
+    margin-top: -250px;
+    z-index: 1;
+}
